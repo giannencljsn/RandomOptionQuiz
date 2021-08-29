@@ -180,10 +180,7 @@ function tryAgainQuiz() {
 //Go to home page
 
 function goToHome(){
-  // hide result box
-  resultBox.classList.add("hide");
-  // show home box
-  homeBox.classList.remove("hide");
+location.href = 'game.html';
 }
 
 ///STARTING POINT
